@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish's Weather</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="location">
+                <span class="location-icon">📍</span>
+                <h1>Weather</h1>
+            </div>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="citySearch" placeholder="Search cities...">
+                </div>
+                <div class="search-results" id="searchResults"></div>
+            </div>
+        </div>
+
+        <div class="weather-info">
+            <h2>Today's Weather Forecast</h2>
+            
+            <p id="currentDate"></p>
+            <div class="current-weather">
+                <div class="weather-temp">30°C</div>
+                <div class="weather-icon">⛈️</div>
+            </div>
+            <div class="weather-details">
+                <div class="weather-detail">
+                    <h3>Precipitation</h3>
+                    <p>60%</p>
+                </div>
+                <div class="weather-detail">
+                    <h3>Humidity</h3>
+                    <p>72%</p>
+                </div>
+                <div class="weather-detail">
+                    <h3>Wind</h3>
+                    <p>18 km/h</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="hourlyForecast" class="hourly-forecast">
+            
+
+        </div>
+
+        <div id="weeklyForecast" class="weekly-forecast">
+            
+
+        </div>
+    </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
